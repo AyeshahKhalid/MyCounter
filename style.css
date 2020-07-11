@@ -1,0 +1,48 @@
+table
+{
+    border-radius: 30px;
+   margin: 100px auto;
+   background-color: rgb(108, 167, 221);
+   box-shadow: 5px 5px 15px;
+    
+}
+h2
+{
+    text-align: center;
+    font-family: monospace;
+    font-size: 50px;
+    color: lightslategray;
+    
+}
+button
+{
+    background-color: lavender;
+    border-radius: 50px;
+    width: 100%;
+    padding: 20px;
+}
+.btn{
+    background-color: lavender;
+    border-radius: 50px;
+}
+body
+{
+    animation-name: example;
+    animation-duration: 10s;
+    background-color: rgb(219, 159, 238);
+}
+@keyframes example
+{
+    0%{ background-color: rgb(219, 159, 238);}
+    25%{ background-color: rgb(160, 159, 238);}
+    50%{ background-color: rgb(129, 211, 243);}
+    100%{ background-color: rgb(129, 243, 196);}
+}
+h1
+{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: white;
+}
+
